@@ -23,9 +23,7 @@ A minimalist Firefox extension that generates TOTP (Time-based One-Time Password
 
 ### Permanent Installation
 
-1. Download the `.xpi` file from the [Releases](#) section
-2. Open the file with Firefox
-3. Confirm the installation
+Perform a quick installation on Firefox: https://addons.mozilla.org/en-US/firefox/addon/totp-viewer/
 
 ## Usage
 
