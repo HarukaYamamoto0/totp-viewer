@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "totp-viewer",
+  "version": "1.0.1",
+  "description": "Simple TOTP code viewer",
+  "permissions": ["storage", "clipboardWrite"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "TOTP Viewer"
+  },
+  "icons": {
+    "16": "icons/16.png",
+    "32": "icons/32.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "totp-viewer@harukadev.com",
+      "strict_min_version": "109.0"
+    },
+    "data_collection_permissions": {
+      "builtin_telemetry": false
+    }
+  }
+}
